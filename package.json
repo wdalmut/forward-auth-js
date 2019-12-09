@@ -1,0 +1,30 @@
+{
+  "name": "@wdalmut/forward-auth",
+  "version": "0.0.1",
+  "description": "Forward authentication headers to another endpoint",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdalmut/forward-auth-js.git"
+  },
+  "keywords": [
+    "auth",
+    "forward"
+  ],
+  "author": "Walter Dal Mut <walter.dalmut@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdalmut/forward-auth-js/issues"
+  },
+  "homepage": "https://github.com/wdalmut/forward-auth-js#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "nock": "^11.7.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
